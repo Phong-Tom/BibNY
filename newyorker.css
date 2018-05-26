@@ -14,7 +14,7 @@ body {
 
 body {
   background-color: rgb(0 20 80);
-  color: #636363;
+  color: rgb(120 120 120);
   font-family: "Caslon Pro", Caslon, Georgia, serif;
   font-size: 16px;
   margin: 0;
@@ -166,7 +166,7 @@ a,
 #requests_table th:nth-of-type(n+3) a:after,
 #details_links a:after,
 #collections_table tr:hover .series:not(:empty):before {
-  color: #92A8B3;
+  color: rgb(220 220 0);
   text-decoration: none;
   cursor: pointer;
 }
@@ -471,6 +471,7 @@ strong em {
 #pre_header {
   font-family: "Neutra", Neutraface, sans-serif;
   font-size: 0.85em;
+  color: rgb(0 150 250);
 }
 
 #pre_header_status li {
@@ -562,7 +563,7 @@ tr[style="background-color: rgb(245, 245, 220);"] .taglist a[target]:before {
   content: "Bibliotik";
   font-size: 80px;
   font-size: 5rem;
-  color: #4E4E50;
+  color: rgb(0 220 0);
   padding: 0;
   display: block;
   text-align: center;
@@ -1555,7 +1556,7 @@ tr.clearFlagsTr a {
 .forums tbody td,
 #forum_topics tbody td,
 .table_div table tbody td {
-  border: solid rgba(0, 0, 0, 0.05);
+  border: solid rgba(255, 255, 255, 0.2);
   border-width: 1px 1px 0 0;
   padding: 10px;
 }
