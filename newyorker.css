@@ -14,7 +14,8 @@ body {
 
 body {
   background-color: rgb(0 20 80);
-  color: rgb(120 120 120);
+  color: rgb(0 0 0);
+  text-shadow: 0 0 0.1px rgba(0, 0, 0, 0.5);
   font-family: "Caslon Pro", Caslon, Georgia, serif;
   font-size: 16px;
   margin: 0;
@@ -166,7 +167,7 @@ a,
 #requests_table th:nth-of-type(n+3) a:after,
 #details_links a:after,
 #collections_table tr:hover .series:not(:empty):before {
-  color: rgb(220 220 0);
+  color: rgb(0 125 0);
   text-decoration: none;
   cursor: pointer;
 }
@@ -671,7 +672,6 @@ tr[style="background-color: rgb(245, 245, 220);"] .taglist a[target]:before {
 #header_nav_links {
   font-size: 16px;
   font-family: "Neutra", Neutraface, sans-serif;
-  font-weight: 700;
   text-transform: uppercase;
   margin: 0 auto 15px;
   padding: 5px 0 0 0;
@@ -687,7 +687,7 @@ tr[style="background-color: rgb(245, 245, 220);"] .taglist a[target]:before {
 }
 
 #header_nav_links a {
-  color: #000;
+  color: rgb(255 255 255);
 }
 
 #header_nav_links li:nth-of-type(1) a:hover {
