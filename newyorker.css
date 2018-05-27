@@ -952,7 +952,7 @@ div#header_top a {
 }
 
 #detailsbox > p:nth-of-type(n+4) {
-  color: cadetblue;
+  color: rgb(200 0 210);
   font-size: 0.9em;
 }
 
